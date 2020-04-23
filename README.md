@@ -19,7 +19,7 @@ These files are either RMarkdown or generated from RMarkdown.
 This Markdown file is part of a Git repository (repo) which is stored on GitHub.  Git keeps all of the files in these directories under version control and GitHub is a web-based platform build on top of Git, much like RStudio is build on top of R.  
 
 GitHub repos can be loaded ("cloned") as a project in RStudio, but we need to set up RStudio:
-
+  
 * First [install git first](https://cfss.uchicago.edu/setup/git/).
 * Then [make sure that RStudio can use git](https://cfss.uchicago.edu/setup/git-with-rstudio/)
 * In RStudio go to File -> New Project ... -> Version Control -> Git
@@ -36,6 +36,7 @@ Forking is a more advanced GitHub technique that will copy someone's repo to you
 * set up a [Github acccount](https://github.com) if you don't have one already.
 * go to https://github.com/abecode/631-rtopics
 * at the top right, select "Fork"" (after "Watch" and "Star")
+* use this url instead
 
 This will create the repo in your own account. Now, if you modify it, you'll be able to upload/write/"push" the changes to made to your own account. To do this first you will change a file.  When a file is changed, you'll then see an "M" next to the file in the Git tab in the top right window of RStudio.  Check "Staged" and then click "Commit".  Then you will add a message to describe your commit.  Then you'll click "Push" and then the commit (a specific snapshot) will be uploaded to your copy of the repo. 
 
